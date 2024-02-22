@@ -11,4 +11,4 @@
     4. Update wsgi.py file
     5. Edit asgiref
     6. Setup Apache modify httpd.conf file
-    7. 
+     
