@@ -1,0 +1,23 @@
+[Wed Feb 21 14:55:28.930061 2024] [wsgi:error] [pid 6644:tid 1120] [client 127.0.0.1:64050] mod_wsgi (pid=6644): Failed to exec Python script file 'C:/test/new/practice/wsgi.py'.
+[Wed Feb 21 14:55:28.930061 2024] [wsgi:error] [pid 6644:tid 1120] [client 127.0.0.1:64050] mod_wsgi (pid=6644): Exception occurred processing WSGI script 'C:/test/new/practice/wsgi.py'.
+[Wed Feb 21 14:55:28.930061 2024] [wsgi:error] [pid 6644:tid 1120] [client 127.0.0.1:64050] Traceback (most recent call last):\r
+[Wed Feb 21 14:55:28.930061 2024] [wsgi:error] [pid 6644:tid 1120] [client 127.0.0.1:64050]   File "C:/test/new/practice/wsgi.py", line 12, in <module>\r
+[Wed Feb 21 14:55:28.930061 2024] [wsgi:error] [pid 6644:tid 1120] [client 127.0.0.1:64050]     from django.core.wsgi import get_wsgi_application\r
+[Wed Feb 21 14:55:28.930061 2024] [wsgi:error] [pid 6644:tid 1120] [client 127.0.0.1:64050]   File "C:\\Users\\arsal\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\django\\__init__.py", line 1, in <module>\r
+[Wed Feb 21 14:55:28.930061 2024] [wsgi:error] [pid 6644:tid 1120] [client 127.0.0.1:64050]     from django.utils.version import get_version\r
+[Wed Feb 21 14:55:28.930061 2024] [wsgi:error] [pid 6644:tid 1120] [client 127.0.0.1:64050]   File "C:\\Users\\arsal\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\django\\utils\\version.py", line 6, in <module>\r
+[Wed Feb 21 14:55:28.930061 2024] [wsgi:error] [pid 6644:tid 1120] [client 127.0.0.1:64050]     from distutils.version import LooseVersion\r
+[Wed Feb 21 14:55:28.930061 2024] [wsgi:error] [pid 6644:tid 1120] [client 127.0.0.1:64050] ModuleNotFoundError: No module named 'distutils'\r
+[Wed Feb 21 15:33:14.760744 2024] [wsgi:error] [pid 23756:tid 1140] [client 127.0.0.1:64307] Not Found: /\r
+[Wed Feb 21 15:33:14.807490 2024] [wsgi:error] [pid 23756:tid 1140] [client 127.0.0.1:64307] Not Found: /favicon.ico\r, referer: http://example.com:5000/
+[Wed Feb 21 17:04:32.200193 2024] [wsgi:error] [pid 25832:tid 1108] [client 127.0.0.1:64704] Not Found: /\r
+[Wed Feb 21 17:04:32.387402 2024] [wsgi:error] [pid 25832:tid 1120] [client 127.0.0.1:64703] Not Found: /favicon.ico\r, referer: http://example.com:5000/
+[Wed Feb 21 18:44:58.677515 2024] [wsgi:error] [pid 25832:tid 1120] [client 127.0.0.1:65422] Not Found: /\r
+[Wed Feb 21 18:44:58.843662 2024] [wsgi:error] [pid 25832:tid 1120] [client 127.0.0.1:65422] Not Found: /favicon.ico\r, referer: http://example.com:5000/
+[Wed Feb 21 18:45:18.135289 2024] [wsgi:error] [pid 25832:tid 1116] [client 127.0.0.1:65426] Not Found: /static/admin/css/base.css\r, referer: http://example.com:5000/admin/login/?next=/admin/
+[Wed Feb 21 18:45:18.141940 2024] [wsgi:error] [pid 25832:tid 1120] [client 127.0.0.1:65425] Not Found: /static/admin/css/dark_mode.css\r, referer: http://example.com:5000/admin/login/?next=/admin/
+[Wed Feb 21 18:45:18.160806 2024] [wsgi:error] [pid 25832:tid 1108] [client 127.0.0.1:65428] Not Found: /static/admin/css/nav_sidebar.css\r, referer: http://example.com:5000/admin/login/?next=/admin/
+[Wed Feb 21 18:45:18.160806 2024] [wsgi:error] [pid 25832:tid 1112] [client 127.0.0.1:65427] Not Found: /static/admin/js/theme.js\r, referer: http://example.com:5000/admin/login/?next=/admin/
+[Wed Feb 21 18:45:18.166759 2024] [wsgi:error] [pid 25832:tid 1096] [client 127.0.0.1:65430] Not Found: /static/admin/css/login.css\r, referer: http://example.com:5000/admin/login/?next=/admin/
+[Wed Feb 21 18:45:18.172614 2024] [wsgi:error] [pid 25832:tid 1100] [client 127.0.0.1:65429] Not Found: /static/admin/js/nav_sidebar.js\r, referer: http://example.com:5000/admin/login/?next=/admin/
+[Wed Feb 21 18:45:18.176026 2024] [wsgi:error] [pid 25832:tid 1116] [client 127.0.0.1:65426] Not Found: /static/admin/css/responsive.css\r, referer: http://example.com:5000/admin/login/?next=/admin/
